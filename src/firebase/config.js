@@ -4,16 +4,16 @@ import 'firebase/analytics';
 import 'firebase/auth';
 import 'firebase/firestore';
 
-var firebaseConfig = {
-  apiKey: 'AIzaSyBRpDZ63mVfrzmzTjHFjRssP4cOvw_jc04',
-  authDomain: 'chat-app-c975a.firebaseapp.com',
-  projectId: 'chat-app-c975a',
-  storageBucket: 'chat-app-c975a.appspot.com',
-  messagingSenderId: '942648297216',
-  appId: '1:942648297216:web:d8c4321ba778c8808f95e5',
-  measurementId: 'G-01WLMKYFFM',
+const firebaseConfig = {
+  apiKey: "AIzaSyB9qBVtbYvPza83ALmiRiXZFM3tnSb94rA",
+  authDomain: "messagingchatapp.firebaseapp.com",
+  projectId: "messagingchatapp",
+  storageBucket: "messagingchatapp.appspot.com",
+  messagingSenderId: "319398028976",
+  appId: "1:319398028976:web:b93950b15aa58ca2fd3d75",
+  measurementId: "G-7NWMJSL2SG"
 };
-// Initialize Firebase
+// Initialize Firebase 
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
